@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="">
+
+<h2>Admin</h2>
+<div class="list-group">
+    <a asp-controller="Product" asp-action="index" class="list-group-item list-group-item-action ">Manage Product</a>
+    <a asp-controller="Technician" asp-action="index" class="list-group-item list-group-item-action">Manage Technicians</a>
+    <a asp-controller="Customer" asp-action="index" class="list-group-item list-group-item-action">Manage Customers</a>
+    <a asp-controller="Incident" asp-action="index" class="list-group-item list-group-item-action ">Manage incident</a>
+    <a asp-controller="Product" asp-action="index" class="list-group-item list-group-item-action">Manage Registrations</a>
+</div>
+
+<h2>Technicians</h2>
+<div class="list-group">
+    <a asp-controller="Incident" asp-action="create" class="list-group-item list-group-item-action ">Update incident</a>
+</div>
+</div>
